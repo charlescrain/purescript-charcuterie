@@ -1,0 +1,25 @@
+{
+  "name": "purs-react-hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-watch": "concurrently \"yarn spago bundle-app -w\" \"yarn watchify index.js -o html/index.js\" \"serve -s html -p 3000\" "
+  },
+  "dependencies": {
+    "purescript": "^0.13.5",
+    "purescript-psa": "^0.7.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-md": "^1.12.3",
+    "spago": "^0.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "node-sass": "^4.13.0",
+    "parcel-bundler": "^1.12.4",
+    "purty": "^4.5.2",
+    "sass": "^1.23.7"
+  }
+}
