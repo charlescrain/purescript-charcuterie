@@ -4,7 +4,7 @@
 
 # Install
 
-```yarn```
+```make install```
 
 # Run
 
