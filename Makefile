@@ -3,7 +3,7 @@ default: npm-deps purs-build parcel-build
 start:
 	yarn parcel src/index.html
 
-npm-deps:
+install:
 	yarn
 
 purs-build:
